@@ -1,0 +1,130 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Awesome Cover Letter
+% XeLaTeX Template
+% Version 1.1 (9/1/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original authors:
+% Claud D. Park (posquit0.bj@gmail.com)
+% Lars Richter (mail@ayeks.de)
+% With modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template must be compiled with XeLaTeX, the below lines will ensure this
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt, letterpaper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
+
+\geometry{left=2.54cm, top=2.54cm, right=2.54cm, bottom=2.54cm, footskip=.5cm} % Configure page margins with geometry
+ 
+\fontdir[fonts/] % Specify the location of the included fonts
+
+% Color for highlights
+\colorlet{awesome}{awesome-red} % Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
+%\definecolor{awesome}{HTML}{CA63A8} % Uncomment if you would like to specify your own color
+
+% Colors for text - uncomment and modify
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad} % If you would like to change the social information separator from a pipe (|) to something else
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%----------------------------------------------------------------------------------------
+
+\name{R. Drake}{Asberry}
+\address{235 E 15th Street, Apartment 1211, Tucson, AZ 85701}
+\mobile{(304) 319-1646}
+
+\email{dasberry@email.arizona.edu}
+%\homepage{www.posquit0.com}
+\github{drakeasberry}
+\linkedin{www.linkedin.com/in/drakeasberry}
+%\skype{skypeid}
+%\stackoverflow{SOid}{SOname}
+%\twitter{@twit}
+
+%\position{Software Engineer{\enskip\cdotp\enskip}Security Expert} % Your expertise/fields
+%\quote{``Make the change that you want to see in the world."} % A quote or statement
+
+%----------------------------------------------------------------------------------------
+%	RECIPIENT/POSITION/LETTER INFORMATION
+%	All of the below lines must be filled out
+%----------------------------------------------------------------------------------------
+
+\newcommand*{\companyaddress}[1]{{\fontsize{11pt}{1em}{\bodyfont\color{black}#1}}} % The company being applied to
+\newcommand*{\recipients}[1]{{\fontsize{11pt}{1em}{\bodyfont\color{black}#1}}} % The company being applied to
+\letterdate{\today} % The date on the letter, default is the date of compilation
+
+\lettertitle{Specialist, Geographic Information Systems} % The title of the letter
+
+\letteropening{Dear Krissandra McNeill,} % How the letter is opened
+
+\letterclosing{Sincerely,} % How the letter is closed
+
+\letterenclosure[Attached]{Résumé} % Any enclosures with the letter
+
+\makecvfooter{\today}{R. Drake Asberry~~~·~~~Cover Letter}{} % Specify the letter footer with 3 arguments: (<left>, <center>, <right>), leave any of these blank if they are not needed
+  
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%\makecvheader % Print the header
+
+%\makelettertitle % Print the title
+%\vspace{-15mm}
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\begin{cvletter}
+
+%------------------------------------------------
+
+%\lettersection{About Me}
+\companyaddress{\emph{February 25, 2019} \bigskip \\ \bfseries{University of Arizona Libraries \\ Office of Digital Innovation \& Stewardship \\}}
+\vspace{-2mm}
+
+\recipients{Dear Krissandra McNeill:\\}
+
+\vspace{-2mm}
+
+
+I am writing in reference to the GIS Information Systems Specialist position that is open in the Office of Digital Innovation \& Stewardship. This position is personally appealing because it will allow me to apply the skills I have developed throughout my career with GIS systems and also integrate them within the academic setting. Based on the job description, I believe I can add significant value in this role based upon my academic background and professional experience.
+
+The focus of my bachelor's degree in Landscape Architecture centered around urban planning and land management, which laid the foundation for my GIS work experiences with both industry and non-profit organizations. Early on in my career, I was fortunate enough to work with the National Geospatial Development Center managing the original soils map project. It was in this position where I was first introduced to and training in ArcGIS Desktop. My experience with this program later led to work with a non-profit organization as a AmeriCorps VISTA* volunteer. In this position, I collected water samples, managed watershed maps and databases in an effort to reclaim polluted waterways affected by acid mine drainage, and taught GIS workshops to other non-profit organizations and government employees. Eventually, my education and experience lead me to a position in oil and gas where I was exposed to larger scale GIS work, versioning, and GIS servers. I continued to hone my skills until I decided to return to academia in 2013.
+
+Since 2013, I have been focusing my career and studies on making information accessible to broad audiences, including domestic and international students at West Virginia University and the University of Arizona. In this capacity, I have developed partnerships between different departments to meet the needs of the universities. To do this effectively, I have developed strong written and oral communication skills, gained cultural competence, and created a positive and productive working environment. 
+
+The GIS Information Systems Specialist position is the culmination of my technical skills and ability to clearly convey complex information to all types of audiences. My GIS experience has taught me to think analytically and critically, whereas my academic experience has taught me how to deliver this type information in a way that helps all types of audiences achieve their goals.
+
+I look forward to discussing this opportunity with you.
+
+
+%------------------------------------------------
+
+\end{cvletter}
+
+%----------------------------------------------------------------------------------------
+
+\makeletterclosing % Print the signature and enclosures
+
+\end{document}

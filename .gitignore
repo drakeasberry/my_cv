@@ -274,3 +274,7 @@ TSWLatexianTemp*
 
 # Makeindex log files
 *.lpz
+
+# Ignore final pdf outputs
+cover_letter.pdf
+resume_cv.pdf
