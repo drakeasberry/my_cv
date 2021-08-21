@@ -278,3 +278,5 @@ TSWLatexianTemp*
 # Ignore final pdf outputs
 cover_letter.pdf
 resume_cv.pdf
+.Rproj.user
+.Rhistory
