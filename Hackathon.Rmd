@@ -1,0 +1,36 @@
+---
+title: "Hackathon"
+author: "Drake Asberry"
+date: "6/21/2022"
+output: html_document
+---
+
+## List your technical/design/product background and achievements at a CUI Level. What topics, if any, are you most excited to work on at the hackathon?
+
+Personal Achievements:  
+
++ Extended functionality of Google Forms and Sheets with Google Apps Scripts and R scripts to create double blind reviews and rankings of proposals for professional development conference at DLIELC.
+
++ Utilized R scripts to collect and analyze to data pertaining to attendance, usage and and feedback of sessions at the professional development conference for after action reports.
+
++ Managed technical aspects of delivering fully virtual conference with Zoom and YouTube Live Stream for professional development conference and Extremism Stand-Down Air Force requirements.
+
++ Wrote and connected experimental files for dissertation research design, data collection, data analysis visualization and document creation utilizing Python, R and LaTeX in an effort to create a reproducible product from experimental design to published manuscript.
+
++ Built my own data collection input device for my dissertation research project, which needed submillisecond accuracy utilizing university laser CNC machines, arcade buttons, and Arduino. I replicated a German University's design for electrical circuitry utilizing a RaspberryPi to test and validate the accuracy of the box I built, which showed accuracy in the hundreds of microseconds.
+
++ I served as the Data Science Ambassador for the College of Humanities at the University of Arizona. I met with faculty, staff, and graduate students to help them overcome hurdles related, but not limited to: data science, programming, data visualization, or to find resources available to them at the University (High performance computing, data storage, training) and/or open source solutions. 
+
++ I served as a Software Carpentries Instructor for Python and UNIX in 2020 at a University of Arizona 2-day Workshop. I also currently serve as one of the Data Carpentries' lesson maintainers for the Introduction to Geospatial Raster and Vector Data with R. I have participated in Alpha-testing and I am currently starting Beta-testing of their software carpentries workbench tool, which is meant to provide more user-friendly functionality for lesson maintainers.
+
++ I volunteered with ResBaz Arizona, a local chapter of the international group ResBaz, where our team provided five hours per week of open availability for anyone from the University or Tucson, AZ communities to come and chat about research, data science or to receive help on the projects on which they were working. Our organization holds an annual conference of which I was an organizer in 2020, and I served as the introductory Python instructor in 2020 and 2021. We helped people with accessing Virtual Machines, High Performance Computing, pipeline workflow programs and how to utilize containerization through Docker and Singularity. I was an instructor at an intensive two-week Cyber Carpentry workshop at University of North Carolina Chapel Hill where we covered these topics. The event culminated in project-based presentations by self-formed teams working to solve real world problems related to their fields of study at the graduate level.
+
++ I wrote macros in VBA and utilized R and Python to create dynamic reports that allowed the Department of Spanish and Portuguese to efficiently create the 26 required syllabi, including semester calendars, each semester. I wrote scripts that allowed integration of their Learning Management System (LMS) and instructor/coordinator enrollments to be completed automatically from roster datasheets rather than manually updated within each individual LMS course site.
+
+Reasoning:  
+I am most excited to gain a better understanding of the technology the Air and Space Force is currently using and looking to use in the future. I would like to incorporate this knowledge into the workflows of my current organization to better realize the futuristic goals of both my organization and the Air Force at large. By implementing these objectives on a smaller scale, the greater Air and Space Force mission can be supported at all levels in both the civilian and military cadres. 
+
+I excel at integrating technological innovation and interpersonal skills within a diverse environment. The interdisciplinary soft-skills I have honed during my experience in training and education have helped me introduce technological advancements in a manner that is approachable and manageable to people not accustomed to working with technology on a regular basis. Therefore, I would like to capitalize on these skills as part of one of the Hackathon teams to contribute to a creative problem solving strategy.
+
+## Why Do I Want to Participate?
+I wish to participate in this program to gain a greater awareness of current open source software and data resources. This program also provides a unique opportunity to blend my appreciation for technological advancement while working in a collaborative learning environment. I feel certain that my previous experience as an educator, innovator, and change-maker will be an excellent addition to your program. 
