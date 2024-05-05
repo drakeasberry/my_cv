@@ -1,0 +1,169 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Awesome Cover Letter
+% XeLaTeX Template
+% Version 1.1 (9/1/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original authors:
+% Claud D. Park (posquit0.bj@gmail.com)
+% Lars Richter (mail@ayeks.de)
+% With modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template must be compiled with XeLaTeX, the below lines will ensure this
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt, letterpaper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
+
+\geometry{left=2.54cm, top=2.54cm, right=2.54cm, bottom=2.54cm, footskip=.5cm} % Configure page margins with geometry
+ 
+\fontdir[fonts/] % Specify the location of the included fonts
+
+% Color for highlights
+\colorlet{awesome}{awesome-red} % Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
+%\definecolor{awesome}{HTML}{CA63A8} % Uncomment if you would like to specify your own color
+
+% Colors for text - uncomment and modify
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad} % If you would like to change the social information separator from a pipe (|) to something else
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%----------------------------------------------------------------------------------------
+
+\name{R. Drake}{Asberry}
+\address{7819 Larcrest Ln, San Antonio, TX 78251}
+\mobile{Cell:(304) 319-1646, Alt:(520) 338-9388}
+
+\email{rasberrywv@gmail.com}
+%\homepage{www.posquit0.com}
+\github{drakeasberry}
+\linkedin{www.linkedin.com/in/drakeasberry}
+%\skype{skypeid}
+%\stackoverflow{SOid}{SOname}
+%\twitter{@twit}
+
+%\position{Software Engineer{\enskip\cdotp\enskip}Security Expert} % Your expertise/fields
+%\quote{``Make the change that you want to see in the world."} % A quote or statement
+
+%----------------------------------------------------------------------------------------
+%	RECIPIENT/POSITION/LETTER INFORMATION
+%	All of the below lines must be filled out
+%----------------------------------------------------------------------------------------
+
+\newcommand*{\companyaddress}[1]{{\fontsize{11pt}{1em}{\bodyfont\color{black}#1}}} % The company being applied to
+\newcommand*{\recipients}[1]{{\fontsize{11pt}{1em}{\bodyfont\color{black}#1}}} % The company being applied to
+%\newcommand*{\companyname}[1]{{\fontsize{10pt}{1em}{\bodyfont\color{black}#1}}}{XYZ} % The company being applied to
+
+\newcommand{\companyname}{NC State University } % Company name to be used in text
+\newcommand{\posname}{Research Integration Consultant } % Job title used in text
+
+\letterdate{\today} % The date on the letter, default is the date of compilation
+
+\lettertitle{Research Integration Consultant} % The title of the letter
+
+\letteropening{Dear Krissandra McNeill,} % How the letter is opened
+
+\letterclosing{Sincerely,} % How the letter is closed
+
+%\letterenclosure[Attached]{Résumé} % Any enclosures with the letter
+
+\makecvfooter{\today}{R. Drake Asberry~~~·~~~Cover Letter}{} % Specify the letter footer with 3 arguments: (<left>, <center>, <right>), leave any of these blank if they are not needed
+  
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+%\makecvheader % Print the header
+%\companyname
+
+%\makelettertitle % Print the title
+%\vspace{-15mm}
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\begin{cvletter}
+
+%------------------------------------------------
+
+%\lettersection{About Me}
+\vspace{5mm}
+\companyaddress{\emph{26 December 2022}% \bigskip \\ 
+\\ \bfseries{NC State University\\}}
+\vspace{-5mm}
+
+\recipients{Dear Hiring Committee:\\}
+
+\vspace{-5mm}
+
+I am reaching out to \companyname in reference to the \posname position because it is the culimination of my interests, formal education and professional experiences. 
+As a first generation college student, I found myself at odds with classmates and professors because my approach to problem solving and critical thinking took on a very different form. I attempted to fit their mold and become more like the perceived norm in my new environment, but never really felt like I belonged. %The focus of my bachelor's degree in Landscape Architecture centered around urban planning and land management. While those around me took a very creative and artistic type of design approach in their thinking as well as presentational approach, I found that I took a much more hands-on, practical and analytical approach to design, which influenced the more engineering type presentational approach.
+Eventually, I realized the value in my uniqueness and learned to use it for the good of my own mental health and productivity of my projects and teammates.
+
+%My undergraduate education laid the foundation for my previous GIS positions. Early on in my career, I was fortunate enough to work with the National Geospatial Development Center on a project that was tasked with digitizing historical soil surveys for online archiving. I was the first hire for the project and was tasked with testing the training material. Following the initial test survey, I naïvely asked why the training was using the specific technology software when our computers were already equipped with more up-to-date software that had the potential speed up the process. This questioning of process placed me quickly on conference call with people who had created the training to which they told my superiors to let try the alternate solution. While I did not have a name for it at the time, this was my first pipeline I created to improve work efficiancy. The completed pipeline was supplemented by collaborative script writing with a student worker and programmer, which allowed us to reduce the average completion time per survey from 16 hours to 4 hours. I was rewarded with being able to write my first training manual, which was I used for training all other student hires. While the initial position I was hired for evolved into a leadership or trainer and quality control duties, it opened up time for my own introduction and training to ArcGIS. Once again my non-traditional approaches coupled with a like-minded colleague were put to use in trying to present solutions to a soil-based construction problem. Rather than creating something completely digital with ArcGIS, we created physical layered project using a basemap and multiple clear mylar plots that representedindividual layers of construction mitigation costs. While the full project showed the current state of soil related construction costs in Indiana, each layer could be peeled back removing one restriction. The peeling back of the layer represented that this factor would need to be mitigated during construction phases, which allowed more developable land to be available. The map updated the legend to match the new visual display of developable land and removed layers that were more cost-effective to the constrcution industry before those that were more cost prohibitive. 
+
+Early in my career, I worked with the National Geospatial Development Center (NGDC) on digitizing historical soil surveys for online archiving. I was the first hire on the project and tasked with testing the training material. I asked many questions to gain an understanding of the organizational goals of the project and eventually wrote updated training materials for a co-authored partially scripted workflow that reduced the average completion time per survey from 16 hours to 4. Afterwards, I worked with a colleague to design digital layers using ArcGIS and overlaid multiple transparent mylar plots to show cost-benefit analysis for fixing certain soil based construction issues. These early experiences showed me that teamwork was essential to quality products and that communication and understanding was the key to good interdiscplinary teamwork.
+
+The soft-skills I learned at the NGDC were tested and further developed when I served a non‑profit organization as a AmeriCorps VISTA* volunteer. Here, community was the mission, and without it, the goals of the organization were impossible to achieve. I collected water samples with citizen scientists, taught educational classes for local schools and clubs, managed watershed maps and databases in an effort to reclaim waterways polluted by acid mine drainage. I also taught GIS workshops to other non‑profit organizations, local, state and federal government agencies. Maintaining these relationships led to my work %next job offer 
+with the Hydrology Research Center where %I continued work on the watershed projects and 
+gained access to highy trained individuals that helped me to develop professionally.%access to working with larger state and federal databases of water quality data for the region. I incorporated this experience into my undergraduate capstone project where I dug into the mathematics involved in natural stream design and restoration. These ideas were presented through engineering drawings and topology maps.
+
+%My experience with the National Geospatial Development Center later led to work with a non-profit organization as a AmeriCorps VISTA* volunteer. In this position, I collected water samples, managed watershed maps and databases in an effort to reclaim polluted waterways affected by acid mine drainage. I also taught GIS workshops to other non-profit organizations as well as local, state and federal government agencies. The collaboration in this position with West Virginia University led to my next job offer with the Hydrology Research Center where I continued to work on the project I started as an AmeriCorps VISTA volunteer and gained access to working with larger state and federal databases of water quality data for the region. By this point, I had learned that my outside the box approach to design and work was not a hinderence, but rather an asset that I could captalize as I continued my education. I was able to put this practice in my final year of my undergraduate capstone project where I took pride in the differences I could achieve by digging into the mathematics involved in natural stream design and restoration and presenting these ideas through engineering drawings and topology maps rather than the colorful artistic urban landscape designs.
+
+Working in the oil and gas industry after graduation, I was %exposed to a very different use of GIS in the workplace. I found myself 
+teaching pipeliners to map company assets while they were teaching me what it was we were mapping in a shared learning experience.%where actively growing databases of information needed to be conflated with historical maps and datasets. The biggest difference here was the effect this information had immediately on day-to-day operations. 
+It was my first experience with development and production servers which were used to provide a versioning framework to protect data integrity and ability to react to ever-changing workplace demands. %While my main job was to map company assets, my secondary role was to provide additional training to field personel for our high-precision GPS equipment. 
+This became the most salient use of my diverse background of physical work abilities and education. My background helped me be the middleman between pipeliners who respected me for my hard work ethic and those upper-level executives who repsected me for my educational achievements. It was this position that I learned to translate the needs of two divergent groups. This resulted in the mapping and asset tracking goals of the executives being met while not overburdening the workforce tasked with gathering the data needed to complete the task. %It took more than communication though because this was not the first time field staff had been tasked with GPSing field assets, yet they were still using maps from as far back as the 1950s. 
+The first step simplified the GPS process based off of their expertise, which modified menus on the GPS unit by excluding all options not used in our company and ordering items in terms of the frequency they were encountered in the field. Once we had trained the influencers of the field staff on GPS equipment and began to provide them with updated maps to work with, we had the buy-in needed for project success. %The GPS data began to roll in faster than it had before and the quality of data improved simultaneously. These small improvements in the process of data collection, made integrating the new data much more efficient. This led to more updated maps to field staff and a larger, more accurate database of company assets for the executives. This utlimately led to a larger pipeline where the newly mapped assets were utilized by the ticketing work management system. This issued work orders in real time to field staff and allowed for better tracking and data analysis for exectuives, reports and compliance issues to the multiple groups within the company that needed them.
+%Realizing that I wanted to have more hands-on experience,% I left the traditional line of work and started 
+Later, I contracted to engineering firms working on new gas pipeline projects where I led surveying crews of 3-5 men. % in order to mark and map the path of proposed pipelines. It was here that I gained more in-depth knowledge of collecting quality data. 
+%While I was no longer responsible for mapping these data points digitally, 
+I conceptualized our field work with the mindset of what a mapper would need to efficiently process the data we provided. % on their end.% to have in order to do their job. 
+This resulted %mindset led to 
+in productive conversations with %that help efficiency map production and 
+engineering %plans while helping us to 
+and prioritization of tasks. %and levels of detail being collected in the field. 
+Leading survey crews gave me the opportunity to help develop others. %employees as well. Rather than taking the traditional stance of crew cheifs who make all decisions as they see fit, 
+I tried to involve all crew members in decision making tasks, which %This not only 
+improved the moral, helped individuals understand the responsibilities of other crew members and fostered a condusive learning environment. %Many of the crew members that worked under me went on to higher positions in crew ranks and even to future crew cheifs. It was at this point that I realized that while I had technical skills and the ability to learn new ones easily, I needed to focus on being a better communicator.
+
+Since 2013, I have focused on making information accessible to broad audiences. I studied linguistics and taught students to communicate clearly in a second language. I taught English as a second language to a broad range of international students with diverse cultural background at West Virginia University and Spanish at the University of Arizona. These teaching experiences have helped me become more culturally aware and sensitive by viewing life through a global lense. %In addition to teaching, I was also in charge of the communication partners program that connected ESL learners with native speakers in the community for the purposes of language exchange and practice. During this time I completed my masters degree in Linguistics and decided to continue this path of education into doctorate level studies. 
+%I began my PhD studies at the University of Arizona in 2016. It was at this point that I wanted to focus on tying my previously gained technical skills into the my education on second language acquisition. I used this platform to developed strong written and oral communication skills, gained additional cultural competence, and created a positive, productive, learning and working environment. As I taught Spanish as a foreign language, I learned to work with a very different student population that I had previously dealt with in the international students. To my surprise, teaching domestic students who shared cultural values with me was not the easy task I had anticipated. Instead I learned that communication takes skill and dedication to be effective regardless of how much shared or ground is shared between parties. My initial dissertation ideas included geospatial components%in my dissertation of language acquisition, but I was unable to find buy-in from the professors. % I had to choose from when forming my committee. As a result, I decided to find other ways to integrate the skills I had learned during my geospatial related jobs. I began to look at finding larger databases of information and think about ways to extropolate patterns that may be present in them.
+As a result, I turned my attention to cognitive science based language research spanning the US/Mexican border. Previous programming knowledge aided my experimental designs and focused on reproducibility of my doctoral research. %Ultimately, my dissertation was designed and created in python based software and JavaScript for online portions. %I excelled in approaching the dissertation from this programmatic approach and began investigating reproducible research methodologies. 
+I became a member of ResBaz, a research group in Tucson, AZ helping academic and local research communities. %to their research, and % their organization. %The organization is an open source of information and people who volunteer their time to . 
+We helped people overcome software installations, dependecy problems and research obsticles in social and behavioral sciences, agriculture and natural resources, engineering, and medical discplines. I served as the Data Science Ambassador for the College of Humanities where I connected researchers with people and programs on campus to support academic research. I taught workshops on utilizing reproducible research methods through containerization, cloud computing and documentation as well as workshops designed for beginning programmers in python, UNIX and git. This community %Of course, while teaching and supporting these folks, I continued to learn many things myself, including 
+taught me how to program R to run statistical analysis and conduct geospatial analysis with R. The communities assisted me as I created pipelines connecting python or JavaScript, data wrangled in python and R, and wrote a LaTeX manuscript. The end result was a dynamic document that updated as new data became available and analyzed. %The most valuable part about This experience was 
+The immediate applications of these skills and the development of my communication abilities to talk about these processes to people from technical and non-technical backgrounds allowed me %. Through the development of this this capacity, I have developed 
+to build partnerships between different departments to meet the needs of the university that have outlasted my tenure. %As my time progressed, I became a coordinator for the Department of Spanish. I found ways to utilize this knowledge of technology and programming skills to make the time of other coordinators on our team more efficient. This allowed us to focus more on the content of the courses we mangaged and invest more into training and development opportunities of instructors who were teaching them. 
+For example, I have generated scripts that create dynamic reports used every semester to update the 26 different syllabi used by the Department of Spanish and implemented development sites for our learning management system used to push out live production sites. I also created training videos of the processes that I developed future employees.
+
+The \posname position provides a perfect opportunity for me to continue developing my technical skills and ability to clearly convey complex information to all types of audiences. My corporate work experience has taught me to think analytically and critically in order to resolve issues. My academic experience has taught me how to deliver technical information that helps others overcome their obstacles while maintaining patience and a sense of understanding with those who are seeking assistance. I thank you for considering me as a candidate for this position and I look forward to discussing this opportunity with you.
+
+
+%------------------------------------------------
+
+\end{cvletter}
+
+%----------------------------------------------------------------------------------------
+
+\makeletterclosing % Print the signature and enclosures
+
+\end{document}
